@@ -1,0 +1,94 @@
+/* body{
+    background-image: url(./images/istockphoto-1194847059-612x612.jpg);
+} */
+body{
+    text-align: center;
+    font-family: "Merriweather", serif; 
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    height: 15%;
+    width: 100%;
+    position: relative;
+}
+
+
+#hero{
+    /* background-image: url(./images/pexels-xxss-is-back-777001.jpg);   
+    height: 500px;
+    width: 100%; */
+}
+
+
+#div{
+    /* border: 10px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#circle{
+    border: 5px solid;
+    height: 15rem;
+    /* min-height: 15rem; */
+    width: 15rem;
+    margin: 20px;
+    border-radius: 100%;
+    background-image: url(./images/IMG_20201229_154004_385.jpg);
+    background-size: cover;
+ 
+    
+
+   
+}
+
+#text{
+    border: 5px solid;
+    /* height: 5rem;
+    width: 5rem; */
+    text-align: center;
+    
+    
+    background-size: cover;
+}
+
+p{
+    
+}
+
+hr{
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the desired height */
+    background-color: #0c0c0c; /* Set the desired color */
+    margin: 20px 0; /* Add margin for spacing */
+    width: 50%; /* Set the desired width */ 
+    margin-left: 25%;
+   
+    
+}
+
+footer{
+    margin: 0%;
+    background-color: rgb(50, 69, 211);
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#foottext{
+    color: white;
+    /* padding: 120px; */
+    padding-top: 120px;
+    margin: 0%;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
